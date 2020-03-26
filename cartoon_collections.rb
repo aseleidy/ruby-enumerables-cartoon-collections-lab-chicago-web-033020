@@ -9,7 +9,8 @@ end
 
 def summon_captain_planet(calls)
   calls.map do |planeteer|
-    puts "#{planeteer.capitalize}!"
+    "#{planeteer.capitalize}!"
+    p calls 
   end 
 end
 
