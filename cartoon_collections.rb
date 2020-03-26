@@ -2,7 +2,7 @@
 def roll_call_dwarves(dwarves)
   
   dwarves.each_with_index do |item, index| 
-    p "#{index + 1}. #{item}"}
+    p "#{index + 1}. #{item}"
   
   end
 end
