@@ -1,7 +1,10 @@
 
 def roll_call_dwarves(dwarves)
   
-  dwarves.map{|i, n| p "#{n}. #{i}"\n}.join(\n)
+  dwarves.map do |i| 
+    p "#{n}. #{i}"\n}.join(\n)
+  
+  end
 end
 
 def summon_captain_planet# code an argument here
