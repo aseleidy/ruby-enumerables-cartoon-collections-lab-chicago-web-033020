@@ -8,8 +8,8 @@ def roll_call_dwarves(dwarves)
 end
 
 def summon_captain_planet(calls)
-  calls.map do |i|
-    puts "#{calls.capitalize}!"
+  calls.map do |planeteer|
+    puts "#{planeteer.capitalize}!"
   end 
 end
 
