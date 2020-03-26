@@ -1,6 +1,6 @@
-require 'pry'
+
 def roll_call_dwarves(dwarves_list)
-  binding.pry
+  
   dwarves_list.map{|i| p "#{i+1}. #{dwarves_list[i]}"}.split(" ")
 end
 
