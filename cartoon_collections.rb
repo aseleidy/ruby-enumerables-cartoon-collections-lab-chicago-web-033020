@@ -1,7 +1,7 @@
 
 def roll_call_dwarves(dwarves)
   
-  dwarves.map do |i| 
+  dwarves.each_with_index do |i| 
     p "#{n}. #{i}"\n}.join(\n)
   
   end
