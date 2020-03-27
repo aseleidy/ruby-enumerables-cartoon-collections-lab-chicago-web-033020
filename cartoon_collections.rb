@@ -21,7 +21,7 @@ def find_the_cheese(array)
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
   
-  array.select {|potential_cheese| cheese_types.include? p potential_cheese}
+  array.select {|potential_cheese| cheese_types.include? p potential_cheese.sum("")}
   
 end
   
